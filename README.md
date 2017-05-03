@@ -1,5 +1,9 @@
 # Cris Cross
 
 Cris Cross is a project that aims to provide Cross Platform SDKs for the Azure Custom Speech Service. 
-It also provides Azure functions for splitting large WAV files into 
-2 minute chunks as the Custom Lanague Service has 2 minute dictation limits.
+
+It will comprise of:
+
+* A C# Nuget Package to call the Custom Speech API from any C# application including xamarin.
+* An Azure Function workflow for dealing with large file processing with CRIS (see Functions)
+* An NPM package which allows you to simply call the CRIS endpoints without modifying the Bing Speech SDK.
